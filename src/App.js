@@ -14,7 +14,7 @@ function App() {
         </div>
         <div className='comingsoonText'>
           <i className="fa-solid fa-gear"></i>
-          <h1>Coming Soon</h1>
+          <h1>Coming Soon!</h1>
         </div>
         <div>
           <a href="mailto:internals.theinfini@gmail.com" className="getInTouch">Get in touch</a>
