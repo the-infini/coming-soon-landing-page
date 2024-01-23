@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto&display=swap');
+body{
+  background: #FCD469;
+  font-family: 'Open Sans', sans-serif;
+}
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  flex-direction: column;
+}
+.logo{
+  margin-right: 18px;
+}
+.comingsoonText{
+  display: flex;
+  align-items: center;
+}
+.comingsoonText h1{
+  margin-left: 10px;
+}
+.fa-gear{
+  font-size: 2rem;
+  animation: gearRotate 4s linear infinite;
+}
+.invert{
+  transform: rotate(180deg);
+}
+.logoItem{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logoItem p{
+  margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+.tagLine {
+  display: flex;
+  align-items: center;
+}
+.tagLine span{
+  margin-right: 5px;
+}
+
+.tagLine img{
+  width: 30px;
+}
+
+.getInTouch{
+
+  text-decoration: none;
+    background: #000;
+    color: #fff;
+    padding: 10px 1.5rem;
+    border-radius: 100px;
+    display: block;
+}
+@keyframes gearRotate{
+
+  from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
+}
